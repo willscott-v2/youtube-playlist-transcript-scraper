@@ -104,7 +104,7 @@ Each transcript object includes:
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/youtube-playlist-transcript-scraper.git
+git clone https://github.com/willscott-v2/youtube-playlist-transcript-scraper.git
 cd youtube-playlist-transcript-scraper
 
 # Install dependencies
@@ -204,7 +204,7 @@ Built with:
 
 ## Support
 
-- **Issues**: [GitHub Issues](https://github.com/yourusername/youtube-playlist-transcript-scraper/issues)
+- **Issues**: [GitHub Issues](https://github.com/willscott-v2/youtube-playlist-transcript-scraper/issues)
 - **Apify Discord**: [Join the community](https://discord.com/invite/jyEM2PRvMU)
 - **Documentation**: [Apify Docs](https://docs.apify.com)
 
