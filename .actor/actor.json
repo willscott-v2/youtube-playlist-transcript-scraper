@@ -3,7 +3,7 @@
   "name": "youtube-playlist-transcript-scraper",
   "title": "YouTube Playlist Transcript Scraper",
   "description": "Extract transcripts from all videos in a YouTube playlist with enriched metadata including title, description, views, and timestamps.",
-  "version": "1.0.0",
+  "version": "1.0",
   "meta": {
     "templateId": "javascript-node"
   },
