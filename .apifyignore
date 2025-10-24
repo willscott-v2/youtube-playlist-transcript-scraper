@@ -1,0 +1,31 @@
+# Files and directories to ignore when deploying to Apify
+
+# Git
+.git
+.gitignore
+
+# Examples
+examples/
+
+# Documentation (README is included via actor.json)
+CONTRIBUTING.md
+CHANGELOG.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test files
+test/
+tests/
+*.test.js
+*.spec.js
+
+# CI/CD
+.github/

@@ -1,0 +1,39 @@
+{
+  "actorSpecification": 1,
+  "name": "youtube-playlist-transcript-scraper",
+  "title": "YouTube Playlist Transcript Scraper",
+  "description": "Extract transcripts from all videos in a YouTube playlist with enriched metadata including title, description, views, and timestamps.",
+  "version": "1.0.0",
+  "meta": {
+    "templateId": "javascript-node"
+  },
+  "input": "./INPUT_SCHEMA.json",
+  "dockerfile": "./Dockerfile",
+  "readme": "./README.md",
+  "categories": ["SOCIAL_MEDIA"],
+  "storages": {
+    "dataset": {
+      "actorSpecification": 1,
+      "title": "Playlist Transcripts",
+      "description": "Transcript data with video metadata",
+      "views": {
+        "overview": {
+          "title": "Overview",
+          "transformation": {
+            "fields": [
+              "videoTitle",
+              "channelName",
+              "viewCount",
+              "duration",
+              "videoUrl"
+            ]
+          },
+          "display": {
+            "component": "table",
+            "properties": {}
+          }
+        }
+      }
+    }
+  }
+}

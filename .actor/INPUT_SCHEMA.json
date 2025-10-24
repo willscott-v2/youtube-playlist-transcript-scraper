@@ -1,0 +1,24 @@
+{
+    "title": "Playlist Transcript Scraper",
+    "type": "object",
+    "schemaVersion": 1,
+    "properties": {
+        "playlistUrl": {
+            "title": "YouTube Playlist URL",
+            "type": "string",
+            "description": "Enter the full YouTube playlist URL",
+            "editor": "textfield",
+            "example": "https://www.youtube.com/playlist?list=PLrAXtmErZgOeiKm4sgNOknGvNjby9efdf"
+        },
+        "maxResults": {
+            "title": "Maximum Number of Transcripts",
+            "type": "integer",
+            "description": "Maximum number of video transcripts to scrape from the playlist (leave empty for all videos)",
+            "editor": "number",
+            "default": 999,
+            "minimum": 1,
+            "maximum": 999
+        }
+    },
+    "required": ["playlistUrl"]
+}

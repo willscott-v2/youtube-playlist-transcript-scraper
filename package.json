@@ -1,0 +1,37 @@
+{
+  "name": "youtube-playlist-transcript-scraper",
+  "version": "1.0.0",
+  "description": "Apify actor for batch extracting transcripts from YouTube playlists with enriched metadata",
+  "main": "src/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "keywords": [
+    "apify",
+    "youtube",
+    "transcript",
+    "scraper",
+    "playlist",
+    "batch",
+    "video",
+    "content-analysis"
+  ],
+  "author": "Will Scott",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/youtube-playlist-transcript-scraper.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/youtube-playlist-transcript-scraper/issues"
+  },
+  "homepage": "https://github.com/yourusername/youtube-playlist-transcript-scraper#readme",
+  "dependencies": {
+    "apify": "^3.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
